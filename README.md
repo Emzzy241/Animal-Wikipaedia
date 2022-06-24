@@ -1,8 +1,8 @@
-# Amusement Park
+# Animal Wiki
 
 #### made by Mojiboye Emmanuel
 
-### A website for checking out different amusement rides available for different human heights
+### A website for learning about three animals, are they are: snakes, insects, and turtles.
 
 ### Technologies Used
 * Git
@@ -12,7 +12,7 @@
 * Bootstrap
 
 ## Description
-_This website is an amusement park website where you can determine what ride fits you best by inputting your height_
+_This website is for learning about insects, snakes, and turtles, in here you can learn if an animal is safe or not and you can also learn if they're good in your habitat_
 
 ## Setup/Installation
 * _Open the directory._
