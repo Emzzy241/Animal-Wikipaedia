@@ -7,10 +7,10 @@
 body{
     background-color: goldenrod;
 }
-h1{
+.hed{
     text-align: center;
 }
 
 #snakes, #turtle, #insects{
-    display: 
+    display: none;
 }
