@@ -13,8 +13,9 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="container-fluid">
+        </form>
         <div id="learning">
             <!-- make sure you add README.md Emmanuel  -->
             <div class="hed">
@@ -27,21 +28,23 @@
                 Insects. <br> Below is a textbox where you can learn a lot of things related to the Animal in which
                 you've just selected. Fasten your seatbelt for a Long Learning Ride
             </p> <br>
-            <select  id="animal" class="form-control">
-                <option class="snake" value="1">Snakes</option>
-                <option class="turtle" value="2">Turtles</option>
-                <option class="insect" value="3">Insects</option>
-            </select>
-            
-            <button type="submit" class="btn btn-primary">Learn Now</button>
-            <br><br>
 
             <h2>Learning now......</h2>
             <br>
+            <div class="form-group">
+                <form id="myForm">
+                    <select id="animal" class="form-control">
+                        <option value="snakes">Snakes</option>
+                        <option value="turtles">Turtles</option>
+                        <option value="insects">Insects</option>
+                    </select>
+
+                    <button type="submit" class="btn btn-primary">Learn Now</button>
+            </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
+                    <div class="col-md-4">
                         <div id="snakes">
                             <h3>Snakes</h3>
                             <p>Note: this is a very dangerous animal</p>
@@ -64,8 +67,8 @@
                             </h6>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                        <div id="turtle">
+                    <div class="col-md-4">
+                        <div id="turtles">
                             <h3>Turtles</h3>
                             <p>Note: Turtles are Friendly and pretty slow</p>
                             <img src="./img/istockphoto-614225004-612x612.jpg" alt="turtle images" width="100%"
@@ -92,7 +95,7 @@
 
 
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
+                    <div class="col-md-4">
                         <div id="insects">
                             <h3>Insects</h3>
                             <p>Note: the little guys not so Friendly</p>
@@ -126,31 +129,6 @@
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

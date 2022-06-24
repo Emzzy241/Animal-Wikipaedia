@@ -1,15 +1,41 @@
-$(document).ready( function(){
-//    var name = $("#animal").find("option:selected").text();
+$(document).ready(function () {
+    $("#myForm").submit(function(e){
+        e.preventDefault();
+    const userInput = $("#animal").val();
 
-if( $("#animals = .snake")){
-    $("#snakes").show();
-}
-else if( $("#animals = .turtle")){
-    $("#turtle").show();
-}
-else( $("animals = .insects")){
-    $("#insects").show();
-}
+    if (userInput === "snakes"){
+        $("#snakes").show();
+        $("#turtles").hide();
+        $("#insects").hide();
+    }
+    else if(userInput === "turtles"){
+        $("#turtles").show();
+        $("#snakes").hide();
+        $("#insects").hide();
+    }
+    else{
+        $("#insects").show();
+        $("#snakes").hide();
+        $("#turtles").hide();
+    }
+    });
+
+
+    // if ($("#animals = .snake")) {
+    //     $("#snakes").show();
+    //     $("#turtle").hide();
+    //     $("#insects").hide();
+    // }
+    // else if ($("#animals = .turtle")) {
+    //     $("#turtle").show();
+    //     $("#snakes").hide();
+    //     $("#insects").hide();
+    // }
+    // else if ($("#animals = .insects")) {
+    //     $("#insects").show();
+    //     $("#snakes").hide();
+    //     $("turtle").hide();
+    // }
 
 
 

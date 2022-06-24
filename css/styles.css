@@ -11,6 +11,12 @@ body{
     text-align: center;
 }
 
-#snakes, #turtle, #insects{
+#snakes{
+    display: none;
+}
+#turtles{
+    display: none;
+}
+#insects{
     display: none;
 }
