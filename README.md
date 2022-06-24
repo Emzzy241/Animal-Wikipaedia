@@ -2,7 +2,7 @@
 
 #### made by Mojiboye Emmanuel
 
-### A website for learning about three animals, are they are: snakes, insects, and turtles.
+### A website for learning about three animals, namely: snakes, insects, and turtles.
 
 ### Technologies Used
 * Git
@@ -12,7 +12,7 @@
 * Bootstrap
 
 ## Description
-_This website is for learning about insects, snakes, and turtles, in here you can learn if an animal is safe or not and you can also learn if they're good in your habitat_
+_This website is for learning about insects, snakes, and turtles, in here you can learn if an animal is safe or not and you can also learn if they're good in your habitat._
 
 ## Setup/Installation
 * _Open the directory._
